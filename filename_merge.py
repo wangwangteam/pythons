@@ -11,7 +11,6 @@ for dir in os.listdir(path):
         # n1_name = n_name + '_' + file_path.split('_')[-1]
         n1_name = n_name + "_" + file_path
         print(n_name)
-        print(n1_name)
         print(child_file)
         # print(n_name)
         os.rename(child_file, n1_name)
